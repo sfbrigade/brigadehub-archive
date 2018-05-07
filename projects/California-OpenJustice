@@ -1,0 +1,136 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="csrf-token" content="wgJQQZqn8LMFj++T8KReysQi+SQxLSb++rtFE="><title>California OpenJustice - Code for San Francisco</title><link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic,300,300italic" rel="stylesheet," type="text/css"><link rel="stylesheet" href="../css/vendors/bootstrap.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-daterangepicker/2.1.24/daterangepicker.css"><link rel="stylesheet" href="https://openlayers.org/en/v4.0.1/css/ol.css" type="text/css"><style rel="stylesheet">.daterangepicker .calendar {
+  max-width: none;
+}</style><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css"><style rel="stylesheet">.dropdown-menu .avatar {
+  width:30px;
+  filter: grayscale(100%) brightness(200%);
+}
+.dropdown-menu label.checkbox {
+  padding:5px;
+}
+.dropdown-menu a {
+  text-decoration:none;
+  color:#555;
+  cursor:pointer;
+}
+.dropdown-menu .checkbox input[type="checkbox"], .dropdown-menu .radio input[type="radio"] {
+  display:none;
+}
+.dropdown-menu .checkbox input[type="checkbox"]:checked + img, .dropdown-menu .radio input[type="radio"]:checked + img {
+  filter: grayscale(0%) brightness(100%);
+}</style><link rel="stylesheet" href="../css/vendors/fullcalendar.css"><link rel="stylesheet" href="../css/vendors/bootstrap-tagsinput.css"><link rel="stylesheet" href="../css/main.css"><style rel="stylesheet">.navigation::after {
+    content: 'Archive: This page is a static archive of codeforsanfrancisco.org as it existed on Brigadehub. Some links may not work.';
+}</style><script>window.__bh = {
+  version: '0.1.10'
+}</script></head><body data-view="project" onbeforeunload="window.clearInterval(window.polling)"><nav class="navbar navbar-light bg-faded navbar-fixed-top"><div class="container"><div class="row account hidden-sm-down clearfix"><ul class="nav navbar-nav pull-xs-right"><li><a href="../login">Login</a></li></ul></div><div class="row navigation"><div class="navbar hidden-md-up"><a class="navbar-toggler" id="nav-toggle"><span></span></a></div><a class="navbar-brand brigade-brand" href="../index.html"><img class="brigade-logo" src="http://i.imgur.com/hvFv1ow.png"></a><div class="ul nav navbar-nav hidden-sm-down pull-right"><li class="nav-item"><a class="nav-link" href="../events">Events</a></li><li class="nav-item"><a class="nav-link" href="../projects">Projects</a></li><li class="nav-item"><a class="nav-link" href="../blog">Blog</a></li><li class="nav-item"><a class="nav-link" href="http://datascience.codeforsanfrancisco.org/" target="self">Data Science</a></li><li class="nav-item"><a class="nav-link" href="http://c4sf.me/code-of-conduct" target="self">Code of Conduct</a></li><li class="nav-item"><a class="nav-link" href="../contact">Contact</a></li></div><div class="nav-menu hidden-md-up"><ul class="nav navbar-nav"><li class="nav-item"><a class="nav-link login-icon" href="../login"><img src="http://brigadehub.codeforsanfrancisco.org/projects/img/login-icon.svg" width="32">Login</a></li><div class="nav-main"><li class="nav-item"><a class="nav-link" href="../events">Events</a></li><li class="nav-item"><a class="nav-link" href="../projects">Projects</a></li><li class="nav-item"><a class="nav-link" href="../blog">Blog</a></li><li class="nav-item"><a class="nav-link" href="http://datascience.codeforsanfrancisco.org/" target="self">Data Science</a></li><li class="nav-item"><a class="nav-link" href="http://c4sf.me/code-of-conduct" target="self">Code of Conduct</a></li><li class="nav-item"><a class="nav-link" href="../contact">Contact</a></li></div></ul></div></div></div></nav><div class="container"><div class="row breadcrumbs"><div class="col-sm-12"><a href="../index.html">Code for San Francisco</a>&nbsp;&nbsp;/&nbsp;<a href="../projects">Projects</a>&nbsp;&nbsp;/&nbsp;<a href="California-OpenJustice">California OpenJustice</a></div></div><div class="row"><div class="col-md-4"><div class="card project-list-card grid-item" href="/projects/California-OpenJustice"><div class="card-top row"><div class="thumbnail" style="background-image:url(http://brigadehub.codeforsanfrancisco.org/projects/&quot;http://datascience.codeforsanfrancisco.org/wp-content/uploads/2016/08/ca_open-justice-750x330.png&quot;);"></div><div class="details"><div class="details-title">California OpenJustice</div><div class="details-tagline">Equity &amp; equality in the CA criminal justice system</div></div></div><div class="card-metrics row brigade"><h5>Code for San Francisco</h5></div><div class="card-metrics row activity"><h5>Active Project<div class="active-indicator active"></div></h5></div><div class="card-metrics row status"><i class="fa fa-line-chart"></i>Project Status:&nbsp;<strong>beta</strong></div><div class="card-metrics row"><span class="one-line"><i class="fa fa-home"></i><a href="http://datascience.codeforsanfrancisco.org/project/ca-doj-openjustice-hypothesis-testing-predictive-modeling/">datascience.codeforsanfrancisco.org/project/ca-doj-openjustice-hypothesis-testing-predictive-modeling/</a></span></div><div class="card-metrics row"><div class="details-keywords"><i class="fa fa-tags"></i><div class="badge">inferential statistics</div><div class="badge">predictive modeling</div><div class="badge">regression analysis</div><div class="badge">hypothesis testing</div><div class="badge">criminal justice</div><div class="badge">dswg</div><div class="badge">data science working group</div><div class="badge">data science</div></div></div><div class="card-metrics row"><div class="details-needs"><i class="fa fa-life-ring"></i><div class="badge">optimization modeling</div></div></div><div class="card-metrics row"><span class="card-title">Project Lead:</span><a class="user-avatar float right" href="https://github.com/judecalvillo" target="_blank"><img src="https://avatars.githubusercontent.com/u/10369337?v=3"></a></div><div class="card-metrics row"><div class="row"><span class="card-title">Project Members:</span><em>There are no members for this project currently.</em></div><em class="row">Want to help this project grow?&nbsp;<a href="../contact">Let us know!</a></em></div><div class="card-metrics row"><div class="row"><span class="one-line"><i class="fa fa-github"></i><a href="https://github.com/sfbrigade/CA_DOJ_OpenJustice">github.com/sfbrigade/CA_DOJ_OpenJustice</a></span></div></div><div class="card-metrics row brigade">share to:&nbsp;<a class="btn btn-social-icon btn-facebook btn-sm" href="California-OpenJustice#" data-provider="facebook"><span class="fa fa-facebook"></span></a><a class="btn btn-social-icon btn-twitter btn-sm" href="California-OpenJustice#" data-provider="twitter"><span class="fa fa-twitter"></span></a><a class="btn btn-social-icon btn-google btn-sm" href="California-OpenJustice#" data-provider="google"><span class="fa fa-google"></span></a><a class="btn btn-social-icon btn-linkedin btn-sm" href="California-OpenJustice#" data-provider="linkedin"><span class="fa fa-linkedin"></span></a><a class="btn btn-social-icon btn-pinterest btn-sm" href="California-OpenJustice#" data-provider="pinterest"><span class="fa fa-pinterest"></span></a><a class="btn btn-social-icon btn-reddit btn-sm" href="California-OpenJustice#" data-provider="reddit"><span class="fa fa-reddit"></span></a><a class="btn btn-social-icon btn-github btn-sm" href="California-OpenJustice#" data-provider="stumbleupon"><span class="fa fa-stumbleupon"></span></a></div></div></div><div class="col-md-8"><div class="banner" style="margin-bottom: 50px;"><span class="project-banner img-fluid" style="background-image:url(http://datascience.codeforsanfrancisco.org/wp-content/uploads/2016/08/ca_open-justice-750x330.png);"></span></div><p><p><img src="https://cdn.rawgit.com/sfbrigade/CA_DOJ_OpenJustice/6db0c2aa/figure/ca_openjustice.png" alt=""></p>
+<h2 id="ca-dept-of-justice-openjustice-project">CA Dept. of Justice OpenJustice Project</h2>
+<h3 id="modeling-hypothesis-testing">Modeling &amp; Hypothesis Testing</h3>
+<p>Below, members of the <a href="https://github.com/sfbrigade/data-science-wg">Data Science Working Group</a> have been charged with answering, via inferential statistics, some of the California Department of Justice's inquiries around criminal justice. These more pointed inquiries were inspired by the OpenJustice project's exploratory analyses at <a href="http://wwww.openjustice.org">OpenJustice.org</a>.</p>
+<p>Responsible DSWG Members:</p>
+<ul>
+<li>Catherine Zhang</li>
+<li>John Huynh</li>
+<li>Saniya Jesupaul</li>
+<li>Holly Davis</li>
+<li>Brian Smith</li>
+<li>Jude Calvillo</li>
+</ul>
+<h4 id="status-as-of-september-14-2016">Status, as of September 14, 2016:</h4>
+<ul>
+<li>Prompts were verified by the CA DOJ’s OpenJustice team, and we’re now in regular contact.</li>
+<li>Prompt #1 pretty much complete (Anonymous Analyst) &gt;&gt;</li>
+<li>Prompt #2 in draft stage (Catherine Zhang) &gt;&gt;</li>
+<li>Prompt #3 in progress but with important questions (Matt Mollison) &gt;&gt;</li>
+<li>Prompt #5 in progress (John Huynh and Saniya Jesupaul) &gt;&gt;</li>
+<li>Numerous outside data sources being joined, explored, and shared (Brian Smith) &gt;&gt;</li>
+<li>Continuing to gather additional data/features for all predictive modeling prompts.
+The Prompts</li>
+</ul>
+<h4 id="status-as-of-august-20-2016">Status, as of August 20, 2016:</h4>
+<ul>
+<li>Prompts were verified by the CA DOJ's OpenJustice team, and we're now in regular contact.</li>
+<li><a href="https://git.io/v64kG">Prompt #1 pretty much complete (Anonymous Analyst) &gt;&gt;</a></li>
+<li><a href="https://git.io/v64k3">Prompt #2 in draft stage (Catherine Z.) &gt;&gt;</a></li>
+<li>New members, John Huynh and Saniya Jesupaul, are beginning to tackle Prompt #5 via linear models and diagnostics.</li>
+<li>Continuing to gather additional data/features for all predictive modeling prompts.</li>
+</ul>
+<h4 id="the-prompts">The Prompts</h4>
+<ol>
+<li>
+<p>Which counties/agencies arrest African American juveniles at a statistically significantly higher rate than that of other counties/agencies?</p>
+<ul>
+<li>Extending analysis to each ethnic group represented</li>
+<li>Drilling down to felonies vs. misdemeanors</li>
+</ul>
+</li>
+<li>
+<p>For the same criminal offense, are particular ethnic juvenile groups more likely to be treated with harsher consequences by law enforcement?</p>
+</li>
+<li>
+<p>Statewide, what contextual and ethnic factors best predict the arrest of juveniles for felonies?</p>
+</li>
+<li>
+<p>Statewide, what contextual and ethnic factors best predict the arrest of juveniles for battery, specifically?</p>
+</li>
+<li>
+<p>For resource allocation prompt: ~. predictors to statewide crime rate (i.e. not necessarily optimization; just a first, exploratory step, probably via LM)</p>
+</li>
+</ol>
+</p></div></div></div><footer><div class="container"><div class="row partners-title"><div class="col-sm-12"><h3>Partners</h3></div></div><div class="row partners-logos ta-c"><div class="col-md-4 d-ib"><a href="http://codeforsanfrancisco.org/blog/post/Code-for-San-Francisco-gets-sponsored" target="_blank"><img src="https://i.imgur.com/5VUlJN8.png" alt="Microsoft"></a></div><div class="col-md-4 d-ib"><a href="http://codeforsanfrancisco.org/blog/post/Announcing-C4SF-sponsor-Segment" target="_blank"><img src="http://i.imgur.com/dM0DqGu.png" alt="Segment"></a></div></div></div><div class="row footer-nav"><div class="col-sm-12"><ul><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-385" id="menu-item-385"><a href="http://codeforsanfrancisco.org">Code for San Francisco</a></li><li><a href="../events">Events</a></li><li><a href="../projects">Projects</a></li><li><a href="../blog">Blog</a></li><li><a href="http://datascience.codeforsanfrancisco.org/" target="self">Data Science</a></li><li><a href="http://c4sf.me/code-of-conduct" target="self">Code of Conduct</a></li><li><a href="../contact">Contact</a></li><li class="text-center"><a href="https://goo.gl/forms/2SMf3qX8ihfqvEC13" target="_blank">brigadehub feedback</a></li><li class="float right"><a href="https://brigadehub.github.io/">powered by BrigadeHub</a></li></ul></div></div></footer><script src="../js/lib/jquery.js"></script><script src="../js/lib/tether.min.js"></script><script src="../js/lib/bootstrap.js"></script><script src="../js/lib/moment.min.js"></script><script src="../js/lib/fullcalendar.js"></script><script src="../js/lib/simplemde.min.js"></script><script src="../js/lib/bootstrap-tagsinput.js"></script><script src="../js/lib/bootstrap3-typeahead.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-daterangepicker/2.1.24/daterangepicker.min.js"></script><script src="../js/bundle.js"></script><!-- Segment tracking script--><script>!function(){
+  var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="4.0.0";
+  analytics.load('XBIO5nYURvNNZUnSszsaxLvkTP1YAvHY');
+  analytics.page();
+}}();
+</script><!-- Google Analytics: change UA-XXXXX-X to be your site's ID--><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-70064412-4', 'auto');
+ga('send', 'pageview');
+</script><input class="share-source" type="hidden" value="http://codeforsanfrancisco.org"><input class="share-name" type="hidden" value="California OpenJustice"><input class="share-description" type="hidden" value="Equity &amp; equality in the CA criminal justice system"><input class="share-image" type="hidden"><scropt src="https://cdnjs.cloudflare.com/ajax/libs/emojify.js/0.9.5/emojify.js"></scropt><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/2.0.3/timeago.min.js"></script><script>new timeago().render(document.querySelectorAll('.timeago-render'))</script><script>$(document).ready(init)
+function init() {
+  setupSocialMediaButtons()
+}
+function setupSocialMediaButtons() {
+  var thisUrl = encodeURIComponent(window.location.href)
+  var thisName = encodeURIComponent($('.share-name').val())
+  var thisDescription = encodeURIComponent($('.share-description').val())
+  var thisImage = encodeURIComponent($('.share-image').val())
+  var thisSource = encodeURIComponent($('.share-source').val())
+  $('.btn-social-icon').each(function(){
+    var $a = $(this)
+    var provider = $a.attr('data-provider')
+    var href
+    switch (provider) {
+      case 'facebook':
+        href = 'https://www.facebook.com/sharer/sharer.php?u='+thisUrl
+        break;
+      case 'twitter':
+        href = 'https://twitter.com/home?status=Check%20out%20this%20awesome%20project!%20'+thisName+'%3A%20'+thisUrl
+        break;
+      case 'google':
+        href = 'https://plus.google.com/share?url='+thisUrl
+        break;
+      case 'linkedin':
+        href = 'https://www.linkedin.com/shareArticle?mini=true&url='+thisUrl+'&title='+thisName+'&summary='+thisDescription+'&source='+thisSource
+        break;
+      case 'pinterest':
+        href = 'https://pinterest.com/pin/create/button/?url='+thisUrl+'&media=TESTIMAGEURLHERE&description='+thisDescription
+        break;
+      case 'reddit':
+        href = 'http://reddit.com/submit?url='+thisUrl+'&title='+thisName
+        break;
+      case 'stumbleupon':
+        href = 'http://www.stumbleupon.com/submit?url='+thisUrl+'&title='+thisName
+        break;
+    }
+    $a.attr('href',href)
+  })
+}
+// https://www.facebook.com/sharer/sharer.php?u=TESTURLHERE
+// https://twitter.com/home?status=TWEETHERE
+// https://plus.google.com/share?url=TESTURLHERE
+// https://www.linkedin.com/shareArticle?mini=true&url=TESTURLHERE&title=TESTTITLE&summary=TESTSUMMARY&source=TESTSOURCEHERE
+// https://pinterest.com/pin/create/button/?url=TESTSOURCEHERE&media=TESTIMAGEURLHERE&description=TESTDESCRIPTION
+// http://reddit.com/submit?url=TESTURLHERE&title=TESTTITLE
+// http://www.stumbleupon.com/submit?url=TESTURLHERE&title=TESTTITLE</script></body></html>

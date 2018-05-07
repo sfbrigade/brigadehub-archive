@@ -1,0 +1,128 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="csrf-token" content="mfphbTHRcIEqVoMHmp7hSxXawJXDf/lBimBas="><title>Universal Civic Anomaly Detector - Code for San Francisco</title><link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic,300,300italic" rel="stylesheet," type="text/css"><link rel="stylesheet" href="../css/vendors/bootstrap.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-daterangepicker/2.1.24/daterangepicker.css"><link rel="stylesheet" href="https://openlayers.org/en/v4.0.1/css/ol.css" type="text/css"><style rel="stylesheet">.daterangepicker .calendar {
+  max-width: none;
+}</style><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css"><style rel="stylesheet">.dropdown-menu .avatar {
+  width:30px;
+  filter: grayscale(100%) brightness(200%);
+}
+.dropdown-menu label.checkbox {
+  padding:5px;
+}
+.dropdown-menu a {
+  text-decoration:none;
+  color:#555;
+  cursor:pointer;
+}
+.dropdown-menu .checkbox input[type="checkbox"], .dropdown-menu .radio input[type="radio"] {
+  display:none;
+}
+.dropdown-menu .checkbox input[type="checkbox"]:checked + img, .dropdown-menu .radio input[type="radio"]:checked + img {
+  filter: grayscale(0%) brightness(100%);
+}</style><link rel="stylesheet" href="../css/vendors/fullcalendar.css"><link rel="stylesheet" href="../css/vendors/bootstrap-tagsinput.css"><link rel="stylesheet" href="../css/main.css"><style rel="stylesheet">.navigation::after {
+    content: 'Archive: This page is a static archive of codeforsanfrancisco.org as it existed on Brigadehub. Some links may not work.';
+}</style><script>window.__bh = {
+  version: '0.1.10'
+}</script></head><body data-view="project" onbeforeunload="window.clearInterval(window.polling)"><nav class="navbar navbar-light bg-faded navbar-fixed-top"><div class="container"><div class="row account hidden-sm-down clearfix"><ul class="nav navbar-nav pull-xs-right"><li><a href="../login">Login</a></li></ul></div><div class="row navigation"><div class="navbar hidden-md-up"><a class="navbar-toggler" id="nav-toggle"><span></span></a></div><a class="navbar-brand brigade-brand" href="../index.html"><img class="brigade-logo" src="http://i.imgur.com/hvFv1ow.png"></a><div class="ul nav navbar-nav hidden-sm-down pull-right"><li class="nav-item"><a class="nav-link" href="../events">Events</a></li><li class="nav-item"><a class="nav-link" href="../projects">Projects</a></li><li class="nav-item"><a class="nav-link" href="../blog">Blog</a></li><li class="nav-item"><a class="nav-link" href="http://datascience.codeforsanfrancisco.org/" target="self">Data Science</a></li><li class="nav-item"><a class="nav-link" href="http://c4sf.me/code-of-conduct" target="self">Code of Conduct</a></li><li class="nav-item"><a class="nav-link" href="../contact">Contact</a></li></div><div class="nav-menu hidden-md-up"><ul class="nav navbar-nav"><li class="nav-item"><a class="nav-link login-icon" href="../login"><img src="http://brigadehub.codeforsanfrancisco.org/projects/img/login-icon.svg" width="32">Login</a></li><div class="nav-main"><li class="nav-item"><a class="nav-link" href="../events">Events</a></li><li class="nav-item"><a class="nav-link" href="../projects">Projects</a></li><li class="nav-item"><a class="nav-link" href="../blog">Blog</a></li><li class="nav-item"><a class="nav-link" href="http://datascience.codeforsanfrancisco.org/" target="self">Data Science</a></li><li class="nav-item"><a class="nav-link" href="http://c4sf.me/code-of-conduct" target="self">Code of Conduct</a></li><li class="nav-item"><a class="nav-link" href="../contact">Contact</a></li></div></ul></div></div></div></nav><div class="container"><div class="row breadcrumbs"><div class="col-sm-12"><a href="../index.html">Code for San Francisco</a>&nbsp;&nbsp;/&nbsp;<a href="../projects">Projects</a>&nbsp;&nbsp;/&nbsp;<a href="Universal-Civic-Anomaly-Detector">Universal Civic Anomaly Detector</a></div></div><div class="row"><div class="col-md-4"><div class="card project-list-card grid-item" href="/projects/Universal-Civic-Anomaly-Detector"><div class="card-top row"><div class="thumbnail" style="background-image:url(http://brigadehub.codeforsanfrancisco.org/projects/&quot;http://datascience.codeforsanfrancisco.org/wp-content/uploads/2016/10/shiny_anomalies-R_jude-calvillo_mock-412x330.png&quot;);"></div><div class="details"><div class="details-title">Universal Civic Anomaly Detector</div><div class="details-tagline">A versatile temporal-spatial anomaly detection app for all levels and agencies of government (and NGOs).</div></div></div><div class="card-metrics row brigade"><h5>Code for San Francisco</h5></div><div class="card-metrics row activity"><h5>Active Project<div class="active-indicator active"></div></h5></div><div class="card-metrics row status"><i class="fa fa-line-chart"></i>Project Status:&nbsp;<strong>mvp</strong></div><div class="card-metrics row"><span class="one-line"><i class="fa fa-home"></i><a href="http://datascience.codeforsanfrancisco.org/project/universal-civic-anomaly-detector/">datascience.codeforsanfrancisco.org/project/universal-civic-anomaly-detector/</a></span></div><div class="card-metrics row"><div class="details-keywords"><i class="fa fa-tags"></i><div class="badge">anomaly detection</div><div class="badge">inferential statistics</div><div class="badge">R</div><div class="badge">shiny</div></div></div><div class="card-metrics row"><div class="details-needs"><i class="fa fa-life-ring"></i><div class="badge">data science</div><div class="badge">R</div><div class="badge">shiny</div><div class="badge">inferential statistics</div></div></div><div class="card-metrics row"><span class="card-title">Project Lead:</span><a class="user-avatar float right" href="https://github.com/judecalvillo" target="_blank"><img src="https://avatars.githubusercontent.com/u/10369337?v=3"></a></div><div class="card-metrics row"><div class="row"><span class="card-title">Project Members:</span><em>There are no members for this project currently.</em></div><em class="row">Want to help this project grow?&nbsp;<a href="../contact">Let us know!</a></em></div><div class="card-metrics row"><div class="row"><span class="one-line"><i class="fa fa-github"></i><a href="https://github.com/sfbrigade/datasci_civic-anomaly-detector">github.com/sfbrigade/datasci_civic-anomaly-detector</a></span></div></div><div class="card-metrics row"><span class="one-line"><i class="fa fa-clock"></i>Recent Github Activity<em>&nbsp;(updates daily)</em></span><hr class="row"><div class="activity row one-line"><a href="https://github.com/sfbrigade/datasci_civic-anomaly-detector/commit/ac4bdf7718251257be20e015339f467a8e771f57" target="_blank"><i class="fa fa-code-fork"></i>&nbsp;<span class="timeago-render" datetime="2016-10-25T16:22:54Z">2016-10-25T16:22:54Z</span>&nbsp;<span>Merge pull request #2 from sfbrigade/jude
+
+README edit.</span></a></div><div class="activity row one-line"><a href="https://github.com/sfbrigade/datasci_civic-anomaly-detector/commit/82bed48ca8698a4fac7838f8abfbb0a76de8056d" target="_blank"><i class="fa fa-code-fork"></i>&nbsp;<span class="timeago-render" datetime="2016-10-25T16:22:23Z">2016-10-25T16:22:23Z</span>&nbsp;<span>README edit.
+
+Fixed a link.</span></a></div><div class="activity row one-line"><a href="https://github.com/sfbrigade/datasci_civic-anomaly-detector/commit/76b9876522f34020bf6df4db96ddca5289e4c8e8" target="_blank"><i class="fa fa-code-fork"></i>&nbsp;<span class="timeago-render" datetime="2016-10-25T16:21:12Z">2016-10-25T16:21:12Z</span>&nbsp;<span>Merge pull request #1 from sfbrigade/jude
+
+Initializing project.</span></a></div><div class="activity row one-line"><a href="https://github.com/sfbrigade/datasci_civic-anomaly-detector/commit/83635fa15b94f122a1a7041cc874601f3e0e4eb8" target="_blank"><i class="fa fa-code-fork"></i>&nbsp;<span class="timeago-render" datetime="2016-10-25T16:20:16Z">2016-10-25T16:20:16Z</span>&nbsp;<span>Initializing project.
+
+Initializing Universal Civic Anomaly Detector project.</span></a></div><div class="activity row one-line"><a href="https://github.com/sfbrigade/datasci_civic-anomaly-detector/commit/19fcb3c6b8bab1a3885c762ae3b97959abe3064f" target="_blank"><i class="fa fa-code-fork"></i>&nbsp;<span class="timeago-render" datetime="2016-10-25T06:40:40Z">2016-10-25T06:40:40Z</span>&nbsp;<span>Initial commit</span></a></div></div><div class="card-metrics row brigade">share to:&nbsp;<a class="btn btn-social-icon btn-facebook btn-sm" href="Universal-Civic-Anomaly-Detector#" data-provider="facebook"><span class="fa fa-facebook"></span></a><a class="btn btn-social-icon btn-twitter btn-sm" href="Universal-Civic-Anomaly-Detector#" data-provider="twitter"><span class="fa fa-twitter"></span></a><a class="btn btn-social-icon btn-google btn-sm" href="Universal-Civic-Anomaly-Detector#" data-provider="google"><span class="fa fa-google"></span></a><a class="btn btn-social-icon btn-linkedin btn-sm" href="Universal-Civic-Anomaly-Detector#" data-provider="linkedin"><span class="fa fa-linkedin"></span></a><a class="btn btn-social-icon btn-pinterest btn-sm" href="Universal-Civic-Anomaly-Detector#" data-provider="pinterest"><span class="fa fa-pinterest"></span></a><a class="btn btn-social-icon btn-reddit btn-sm" href="Universal-Civic-Anomaly-Detector#" data-provider="reddit"><span class="fa fa-reddit"></span></a><a class="btn btn-social-icon btn-github btn-sm" href="Universal-Civic-Anomaly-Detector#" data-provider="stumbleupon"><span class="fa fa-stumbleupon"></span></a></div></div></div><div class="col-md-8"><div class="banner" style="margin-bottom: 50px;"><span class="project-banner img-fluid" style="background-image:url(http://datascience.codeforsanfrancisco.org/wp-content/uploads/2016/10/shiny_anomalies-R_jude-calvillo_mock-412x330.png);"></span></div><p><h2 id="universal-civic-anomaly-detector">Universal Civic Anomaly Detector</h2>
+<p>A project by the Data Science Working Group @ Code for San Francisco
+Project Lead: Jude Calvillo</p>
+<p>The aim of this project is to develop a highly versatile temporal-spatial anomaly detection app for all levels and agencies of government (and NGOs). Such an anomaly detector would not just reveal truly significant events (or summary events), given such events' underlying seasonality and trend, but it would also provide time-series and local news context. Thus, it would point civic authorities to events that actually warrant a tactical response, and it would better prepare them for that response, all of which would improve efficiency (saving time, funds, etc).</p>
+<p><strong>Abstraction and Parameterization of Existing App</strong></p>
+<p>This app will be an abstraction of the DSWG's Dept. of Transportation Hazmat Incident Anomaly Detector, where its interface and purported relevance will be generalized, while its inputs and parameters will be as follows:</p>
+<p><strong>Inputs:</strong></p>
+<ul>
+<li>Data (uploaded or API)</li>
+<li>Shape files (optional: for custom geographic units)</li>
+</ul>
+<p><strong>Parameters:</strong></p>
+<ul>
+<li>Time interval (hour/day/week/month/year)</li>
+<li>Geographic unit (e.g. census tract, city, county, state)</li>
+<li>Target news topics and filters (e.g. 'hazmat-related accidents')</li>
+</ul>
+<p><strong>Responsible DSWG Teammates</strong></p>
+<ul>
+<li>Jude Calvillo</li>
+<li>And YOU? (looking for a teammate with R + Shiny experience)</li>
+</ul>
+<p><strong>Stack</strong></p>
+<ul>
+<li>R (statistical programming language)</li>
+<li>Shiny (web framework for R apps)</li>
+<li>Leaflet (javascript mapping and interactivity)</li>
+<li>Microsoft Cognitive Services API (for news search) / Webhose.io (for -possible- social search)</li>
+</ul>
+<p><strong>Status, as of Oct. 25, 2016</strong></p>
+<ul>
+<li>Proof of concept, DoT Hazmat Incident Anomaly Detector app, complete.</li>
+<li>Planning abstraction and parameterization.</li>
+<li>Developing a custom 'month picker' input for Shiny, as no such input widget exists (i.e. could help promote the DSWG).</li>
+<li>Honing MS Cognitive Services search operators in hopes of improving news relevance.</li>
+</ul>
+<p><strong>Keywords</strong></p>
+<p>Shiny, Shiny app, anomaly detection, Leaflet, data science working group, code for san francisco, R, r programming, jude calvillo, inferential statistics, code for america, brigade</p>
+</p></div></div></div><footer><div class="container"><div class="row partners-title"><div class="col-sm-12"><h3>Partners</h3></div></div><div class="row partners-logos ta-c"><div class="col-md-4 d-ib"><a href="http://codeforsanfrancisco.org/blog/post/Code-for-San-Francisco-gets-sponsored" target="_blank"><img src="https://i.imgur.com/5VUlJN8.png" alt="Microsoft"></a></div><div class="col-md-4 d-ib"><a href="http://codeforsanfrancisco.org/blog/post/Announcing-C4SF-sponsor-Segment" target="_blank"><img src="http://i.imgur.com/dM0DqGu.png" alt="Segment"></a></div></div></div><div class="row footer-nav"><div class="col-sm-12"><ul><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-385" id="menu-item-385"><a href="http://codeforsanfrancisco.org">Code for San Francisco</a></li><li><a href="../events">Events</a></li><li><a href="../projects">Projects</a></li><li><a href="../blog">Blog</a></li><li><a href="http://datascience.codeforsanfrancisco.org/" target="self">Data Science</a></li><li><a href="http://c4sf.me/code-of-conduct" target="self">Code of Conduct</a></li><li><a href="../contact">Contact</a></li><li class="text-center"><a href="https://goo.gl/forms/2SMf3qX8ihfqvEC13" target="_blank">brigadehub feedback</a></li><li class="float right"><a href="https://brigadehub.github.io/">powered by BrigadeHub</a></li></ul></div></div></footer><script src="../js/lib/jquery.js"></script><script src="../js/lib/tether.min.js"></script><script src="../js/lib/bootstrap.js"></script><script src="../js/lib/moment.min.js"></script><script src="../js/lib/fullcalendar.js"></script><script src="../js/lib/simplemde.min.js"></script><script src="../js/lib/bootstrap-tagsinput.js"></script><script src="../js/lib/bootstrap3-typeahead.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-daterangepicker/2.1.24/daterangepicker.min.js"></script><script src="../js/bundle.js"></script><!-- Segment tracking script--><script>!function(){
+  var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="4.0.0";
+  analytics.load('XBIO5nYURvNNZUnSszsaxLvkTP1YAvHY');
+  analytics.page();
+}}();
+</script><!-- Google Analytics: change UA-XXXXX-X to be your site's ID--><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-70064412-4', 'auto');
+ga('send', 'pageview');
+</script><input class="share-source" type="hidden" value="http://codeforsanfrancisco.org"><input class="share-name" type="hidden" value="Universal Civic Anomaly Detector"><input class="share-description" type="hidden" value="A versatile temporal-spatial anomaly detection app for all levels and agencies of government (and NGOs)."><input class="share-image" type="hidden"><scropt src="https://cdnjs.cloudflare.com/ajax/libs/emojify.js/0.9.5/emojify.js"></scropt><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/2.0.3/timeago.min.js"></script><script>new timeago().render(document.querySelectorAll('.timeago-render'))</script><script>$(document).ready(init)
+function init() {
+  setupSocialMediaButtons()
+}
+function setupSocialMediaButtons() {
+  var thisUrl = encodeURIComponent(window.location.href)
+  var thisName = encodeURIComponent($('.share-name').val())
+  var thisDescription = encodeURIComponent($('.share-description').val())
+  var thisImage = encodeURIComponent($('.share-image').val())
+  var thisSource = encodeURIComponent($('.share-source').val())
+  $('.btn-social-icon').each(function(){
+    var $a = $(this)
+    var provider = $a.attr('data-provider')
+    var href
+    switch (provider) {
+      case 'facebook':
+        href = 'https://www.facebook.com/sharer/sharer.php?u='+thisUrl
+        break;
+      case 'twitter':
+        href = 'https://twitter.com/home?status=Check%20out%20this%20awesome%20project!%20'+thisName+'%3A%20'+thisUrl
+        break;
+      case 'google':
+        href = 'https://plus.google.com/share?url='+thisUrl
+        break;
+      case 'linkedin':
+        href = 'https://www.linkedin.com/shareArticle?mini=true&url='+thisUrl+'&title='+thisName+'&summary='+thisDescription+'&source='+thisSource
+        break;
+      case 'pinterest':
+        href = 'https://pinterest.com/pin/create/button/?url='+thisUrl+'&media=TESTIMAGEURLHERE&description='+thisDescription
+        break;
+      case 'reddit':
+        href = 'http://reddit.com/submit?url='+thisUrl+'&title='+thisName
+        break;
+      case 'stumbleupon':
+        href = 'http://www.stumbleupon.com/submit?url='+thisUrl+'&title='+thisName
+        break;
+    }
+    $a.attr('href',href)
+  })
+}
+// https://www.facebook.com/sharer/sharer.php?u=TESTURLHERE
+// https://twitter.com/home?status=TWEETHERE
+// https://plus.google.com/share?url=TESTURLHERE
+// https://www.linkedin.com/shareArticle?mini=true&url=TESTURLHERE&title=TESTTITLE&summary=TESTSUMMARY&source=TESTSOURCEHERE
+// https://pinterest.com/pin/create/button/?url=TESTSOURCEHERE&media=TESTIMAGEURLHERE&description=TESTDESCRIPTION
+// http://reddit.com/submit?url=TESTURLHERE&title=TESTTITLE
+// http://www.stumbleupon.com/submit?url=TESTURLHERE&title=TESTTITLE</script></body></html>

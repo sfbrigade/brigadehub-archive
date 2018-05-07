@@ -1,0 +1,116 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="csrf-token" content="kyeWrhY302GkQ18kj0rD2snFpReP5WZDaJD5s="><title>SBA Data Analysis &amp; Visualizations - Code for San Francisco</title><link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic,300,300italic" rel="stylesheet," type="text/css"><link rel="stylesheet" href="../css/vendors/bootstrap.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-daterangepicker/2.1.24/daterangepicker.css"><link rel="stylesheet" href="https://openlayers.org/en/v4.0.1/css/ol.css" type="text/css"><style rel="stylesheet">.daterangepicker .calendar {
+  max-width: none;
+}</style><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css"><style rel="stylesheet">.dropdown-menu .avatar {
+  width:30px;
+  filter: grayscale(100%) brightness(200%);
+}
+.dropdown-menu label.checkbox {
+  padding:5px;
+}
+.dropdown-menu a {
+  text-decoration:none;
+  color:#555;
+  cursor:pointer;
+}
+.dropdown-menu .checkbox input[type="checkbox"], .dropdown-menu .radio input[type="radio"] {
+  display:none;
+}
+.dropdown-menu .checkbox input[type="checkbox"]:checked + img, .dropdown-menu .radio input[type="radio"]:checked + img {
+  filter: grayscale(0%) brightness(100%);
+}</style><link rel="stylesheet" href="../css/vendors/fullcalendar.css"><link rel="stylesheet" href="../css/vendors/bootstrap-tagsinput.css"><link rel="stylesheet" href="../css/main.css"><style rel="stylesheet">.navigation::after {
+    content: 'Archive: This page is a static archive of codeforsanfrancisco.org as it existed on Brigadehub. Some links may not work.';
+}</style><script>window.__bh = {
+  version: '0.1.10'
+}</script></head><body data-view="project" onbeforeunload="window.clearInterval(window.polling)"><nav class="navbar navbar-light bg-faded navbar-fixed-top"><div class="container"><div class="row account hidden-sm-down clearfix"><ul class="nav navbar-nav pull-xs-right"><li><a href="../login">Login</a></li></ul></div><div class="row navigation"><div class="navbar hidden-md-up"><a class="navbar-toggler" id="nav-toggle"><span></span></a></div><a class="navbar-brand brigade-brand" href="../index.html"><img class="brigade-logo" src="http://i.imgur.com/hvFv1ow.png"></a><div class="ul nav navbar-nav hidden-sm-down pull-right"><li class="nav-item"><a class="nav-link" href="../events">Events</a></li><li class="nav-item"><a class="nav-link" href="../projects">Projects</a></li><li class="nav-item"><a class="nav-link" href="../blog">Blog</a></li><li class="nav-item"><a class="nav-link" href="http://datascience.codeforsanfrancisco.org/" target="self">Data Science</a></li><li class="nav-item"><a class="nav-link" href="http://c4sf.me/code-of-conduct" target="self">Code of Conduct</a></li><li class="nav-item"><a class="nav-link" href="../contact">Contact</a></li></div><div class="nav-menu hidden-md-up"><ul class="nav navbar-nav"><li class="nav-item"><a class="nav-link login-icon" href="../login"><img src="http://brigadehub.codeforsanfrancisco.org/projects/img/login-icon.svg" width="32">Login</a></li><div class="nav-main"><li class="nav-item"><a class="nav-link" href="../events">Events</a></li><li class="nav-item"><a class="nav-link" href="../projects">Projects</a></li><li class="nav-item"><a class="nav-link" href="../blog">Blog</a></li><li class="nav-item"><a class="nav-link" href="http://datascience.codeforsanfrancisco.org/" target="self">Data Science</a></li><li class="nav-item"><a class="nav-link" href="http://c4sf.me/code-of-conduct" target="self">Code of Conduct</a></li><li class="nav-item"><a class="nav-link" href="../contact">Contact</a></li></div></ul></div></div></div></nav><div class="container"><div class="row breadcrumbs"><div class="col-sm-12"><a href="../index.html">Code for San Francisco</a>&nbsp;&nbsp;/&nbsp;<a href="../projects">Projects</a>&nbsp;&nbsp;/&nbsp;<a href="SBA-Data-Analysis-and-Visualizations">SBA Data Analysis &amp; Visualizations</a></div></div><div class="row"><div class="col-md-4"><div class="card project-list-card grid-item" href="/projects/SBA-Data-Analysis-and-Visualizations"><div class="card-top row"><div class="thumbnail" style="background-image:url(http://brigadehub.codeforsanfrancisco.org/projects/&quot;http://datascience.codeforsanfrancisco.org/wp-content/uploads/2017/03/sba.jpg&quot;);"></div><div class="details"><div class="details-title">SBA Data Analysis &amp; Visualizations</div><div class="details-tagline">Working with the Small Business Administration (SBA) to create interactive applications, predictive models, visualizations, and more.</div></div></div><div class="card-metrics row brigade"><h5>Code for San Francisco</h5></div><div class="card-metrics row activity"><h5>Active Project<div class="active-indicator active"></div></h5></div><div class="card-metrics row status"><i class="fa fa-line-chart"></i>Project Status:&nbsp;<strong>discovery</strong></div><div class="card-metrics row"><span class="one-line"><i class="fa fa-home"></i><a href="https://github.com/sfbrigade/datasci-sba">github.com/sfbrigade/datasci-sba</a></span></div><div class="card-metrics row"><div class="details-keywords"><i class="fa fa-tags"></i><div class="badge">data science</div><div class="badge">predictive modeling</div><div class="badge">full stack development</div><div class="badge">ui</div><div class="badge">ux</div><div class="badge">public equity</div><div class="badge">economic development</div></div></div><div class="card-metrics row"><div class="details-needs"><i class="fa fa-life-ring"></i><div class="badge">full stack</div><div class="badge">data visualizations</div><div class="badge">data science</div><div class="badge">predictive modeling</div></div></div><div class="card-metrics row"><span class="card-title">Project Leads:</span><a class="user-avatar float right" href="https://github.com/SuperNerb" target="_blank"><img src="https://avatars.githubusercontent.com/u/21251707?v=3"></a><a class="user-avatar float right" href="https://github.com/brityboy" target="_blank"><img src="https://avatars.githubusercontent.com/u/18532719?v=3"></a></div><div class="card-metrics row"><div class="row"><span class="card-title">Project Members:</span><em>There are no members for this project currently.</em></div><em class="row">Want to help this project grow?&nbsp;<a href="../contact">Let us know!</a></em></div><div class="card-metrics row"><div class="row"><span class="one-line"><i class="fa fa-github"></i><a href="https://github.com/sfbrigade/datasci-sba">github.com/sfbrigade/datasci-sba</a></span></div></div><div class="card-metrics row"><span class="one-line"><i class="fa fa-clock"></i>Recent Github Activity<em>&nbsp;(updates daily)</em></span><hr class="row"><div class="activity row one-line"><a href="https://github.com/sfbrigade/datasci-sba/commit/8121a098f20d0431328fa92f09e914cee8bc59b0" target="_blank"><i class="fa fa-code-fork"></i>&nbsp;<span class="timeago-render" datetime="2017-11-30T04:38:05Z">2017-11-30T04:38:05Z</span>&nbsp;<span>Merge pull request #74 from sfbrigade/add-all-in-dropdown
+
+added support for 'all' in dropdown</span></a></div><div class="activity row one-line"><a href="https://github.com/sfbrigade/datasci-sba/pull/72#issuecomment-346963576" target="_blank"><i class="fa fa-comment-o"></i>&nbsp;<span class="timeago-render" datetime="2017-11-25T20:18:13Z">2017-11-25T20:18:13Z</span>&nbsp;<img class="user-avatar" src="https://avatars1.githubusercontent.com/u/28820203?v=4" style="width:20px;height:20px;">&nbsp;<span>I also corrected the table and changed my personal cron job to minimize the problems that caused the dates to between text blobs.
+</span></a></div><div class="activity row one-line"><a href="https://github.com/sfbrigade/datasci-sba/pull/72#issuecomment-346963537" target="_blank"><i class="fa fa-comment-o"></i>&nbsp;<span class="timeago-render" datetime="2017-11-25T20:17:43Z">2017-11-25T20:17:43Z</span>&nbsp;<img class="user-avatar" src="https://avatars1.githubusercontent.com/u/28820203?v=4" style="width:20px;height:20px;">&nbsp;<span>From my list, this commit addresses two tasks:
+1. Fix the APIs so if there is a timeout it tries again rather than giving up.
+2. For the Google geocode, try to put a short delay between each call.</span></a></div><div class="activity row one-line"><a href="https://github.com/sfbrigade/datasci-sba/pull/72#issuecomment-343748588" target="_blank"><i class="fa fa-comment-o"></i>&nbsp;<span class="timeago-render" datetime="2017-11-12T16:23:09Z">2017-11-12T16:23:09Z</span>&nbsp;<img class="user-avatar" src="https://avatars1.githubusercontent.com/u/28820203?v=4" style="width:20px;height:20px;">&nbsp;<span>I noticed in a casual check today that the Yelp and Geocode timestamps have become blobs of text rather than dates. I don't know why just yet.</span></a></div><div class="activity row one-line"><a href="https://github.com/sfbrigade/datasci-sba/pull/74#issuecomment-343748520" target="_blank"><i class="fa fa-comment-o"></i>&nbsp;<span class="timeago-render" datetime="2017-11-12T16:22:09Z">2017-11-12T16:22:09Z</span>&nbsp;<img class="user-avatar" src="https://avatars1.githubusercontent.com/u/28820203?v=4" style="width:20px;height:20px;">&nbsp;<span>Looks good to me.</span></a></div><div class="activity row one-line"><a href="https://github.com/sfbrigade/datasci-sba/commit/86dfdef1e81b415023b9aaa2dad1f49f5995875a" target="_blank"><i class="fa fa-code-fork"></i>&nbsp;<span class="timeago-render" datetime="2017-11-09T05:16:13Z">2017-11-09T05:16:13Z</span>&nbsp;<span>added support for 'all' in dropdown</span></a></div><div class="activity row one-line"><a href="https://github.com/sfbrigade/datasci-sba/pull/72#issuecomment-341573879" target="_blank"><i class="fa fa-comment-o"></i>&nbsp;<span class="timeago-render" datetime="2017-11-02T22:13:07Z">2017-11-02T22:13:07Z</span>&nbsp;<img class="user-avatar" src="https://avatars1.githubusercontent.com/u/28820203?v=4" style="width:20px;height:20px;">&nbsp;<span>Added explanation of the third party API flow to onboarding.</span></a></div><div class="activity row one-line"><a href="https://github.com/sfbrigade/datasci-sba/commit/a38dbb9695ff8d8a5ccf1bd5d07869e0bb8b9a15" target="_blank"><i class="fa fa-code-fork"></i>&nbsp;<span class="timeago-render" datetime="2017-10-29T21:51:03Z">2017-10-29T21:51:03Z</span>&nbsp;<span>Merge pull request #73 from sfbrigade/map-tooltip
+
+added rudimentary map tooltip on click</span></a></div><div class="activity row one-line"><a href="https://github.com/sfbrigade/datasci-sba/pull/55#issuecomment-340303303" target="_blank"><i class="fa fa-comment-o"></i>&nbsp;<span class="timeago-render" datetime="2017-10-29T21:49:54Z">2017-10-29T21:49:54Z</span>&nbsp;<img class="user-avatar" src="https://avatars1.githubusercontent.com/u/28820203?v=4" style="width:20px;height:20px;">&nbsp;<span>I think we should close this as PR 72 addresses this and all the other API calls.</span></a></div><div class="activity row one-line"><a href="https://github.com/sfbrigade/datasci-sba/pull/72#issuecomment-340134171" target="_blank"><i class="fa fa-comment-o"></i>&nbsp;<span class="timeago-render" datetime="2017-10-28T02:43:42Z">2017-10-28T02:43:42Z</span>&nbsp;<img class="user-avatar" src="https://avatars1.githubusercontent.com/u/28820203?v=4" style="width:20px;height:20px;">&nbsp;<span>Ok, this is ready for review, comments and testing. Whew! @VincentLa @avdonovan </span></a></div></div><div class="card-metrics row brigade">share to:&nbsp;<a class="btn btn-social-icon btn-facebook btn-sm" href="SBA-Data-Analysis-and-Visualizations#" data-provider="facebook"><span class="fa fa-facebook"></span></a><a class="btn btn-social-icon btn-twitter btn-sm" href="SBA-Data-Analysis-and-Visualizations#" data-provider="twitter"><span class="fa fa-twitter"></span></a><a class="btn btn-social-icon btn-google btn-sm" href="SBA-Data-Analysis-and-Visualizations#" data-provider="google"><span class="fa fa-google"></span></a><a class="btn btn-social-icon btn-linkedin btn-sm" href="SBA-Data-Analysis-and-Visualizations#" data-provider="linkedin"><span class="fa fa-linkedin"></span></a><a class="btn btn-social-icon btn-pinterest btn-sm" href="SBA-Data-Analysis-and-Visualizations#" data-provider="pinterest"><span class="fa fa-pinterest"></span></a><a class="btn btn-social-icon btn-reddit btn-sm" href="SBA-Data-Analysis-and-Visualizations#" data-provider="reddit"><span class="fa fa-reddit"></span></a><a class="btn btn-social-icon btn-github btn-sm" href="SBA-Data-Analysis-and-Visualizations#" data-provider="stumbleupon"><span class="fa fa-stumbleupon"></span></a></div></div></div><div class="col-md-8"><div class="banner" style="margin-bottom: 50px;"><span class="project-banner img-fluid" style="background-image:url(http://datascience.codeforsanfrancisco.org/wp-content/uploads/2017/03/sba.jpg);"></span></div><p><p>datasci-sba (Small Business Association</p>
+<p>Data Science Working Group working with the Small Business Administration (SBA) to create interactive applications, models, visualizations, and much more.</p>
+<p>This project is part of Data Science Working Group at Code for San Francisco</p>
+<p>Project Description</p>
+<p>Live links</p>
+<p>Contributing DSWG Members</p>
+<p>Slack Channel: #datasci-sba</p>
+<p>Name	Slack Handle	Contribution
+Tech</p>
+<p>Contributing</p>
+<p>Fork this repo, then clone your repo locally</p>
+<p>$ git clone <your-repo>
+$ cd &lt;this-repo's-name&gt;
+$ git remote add upstream <this-repo>
+Create a feature branch:</p>
+<p>$ git checkout -b <feature-branch>
+Do some work:</p>
+<p>$ vim <some-files>
+When you're ready, commit, merge any upstream changes, deal with conflicts, and push your branch (aka, forking workflow)</p>
+<p>$ git add <edited-files>
+$ git commit -m 'my awesome feature'
+$ git pull upstream master</p>
+<h1 id="solve-conflicts">solve conflicts</h1>
+<p>$ git push
+Create a Pull Request from your pushed branch (compare branch) to this repo (base branch)
+...
+Profit!</p>
+</p></div></div></div><footer><div class="container"><div class="row partners-title"><div class="col-sm-12"><h3>Partners</h3></div></div><div class="row partners-logos ta-c"><div class="col-md-4 d-ib"><a href="http://codeforsanfrancisco.org/blog/post/Code-for-San-Francisco-gets-sponsored" target="_blank"><img src="https://i.imgur.com/5VUlJN8.png" alt="Microsoft"></a></div><div class="col-md-4 d-ib"><a href="http://codeforsanfrancisco.org/blog/post/Announcing-C4SF-sponsor-Segment" target="_blank"><img src="http://i.imgur.com/dM0DqGu.png" alt="Segment"></a></div></div></div><div class="row footer-nav"><div class="col-sm-12"><ul><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-385" id="menu-item-385"><a href="http://codeforsanfrancisco.org">Code for San Francisco</a></li><li><a href="../events">Events</a></li><li><a href="../projects">Projects</a></li><li><a href="../blog">Blog</a></li><li><a href="http://datascience.codeforsanfrancisco.org/" target="self">Data Science</a></li><li><a href="http://c4sf.me/code-of-conduct" target="self">Code of Conduct</a></li><li><a href="../contact">Contact</a></li><li class="text-center"><a href="https://goo.gl/forms/2SMf3qX8ihfqvEC13" target="_blank">brigadehub feedback</a></li><li class="float right"><a href="https://brigadehub.github.io/">powered by BrigadeHub</a></li></ul></div></div></footer><script src="../js/lib/jquery.js"></script><script src="../js/lib/tether.min.js"></script><script src="../js/lib/bootstrap.js"></script><script src="../js/lib/moment.min.js"></script><script src="../js/lib/fullcalendar.js"></script><script src="../js/lib/simplemde.min.js"></script><script src="../js/lib/bootstrap-tagsinput.js"></script><script src="../js/lib/bootstrap3-typeahead.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-daterangepicker/2.1.24/daterangepicker.min.js"></script><script src="../js/bundle.js"></script><!-- Segment tracking script--><script>!function(){
+  var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="4.0.0";
+  analytics.load('XBIO5nYURvNNZUnSszsaxLvkTP1YAvHY');
+  analytics.page();
+}}();
+</script><!-- Google Analytics: change UA-XXXXX-X to be your site's ID--><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-70064412-4', 'auto');
+ga('send', 'pageview');
+</script><input class="share-source" type="hidden" value="http://codeforsanfrancisco.org"><input class="share-name" type="hidden" value="SBA Data Analysis &amp; Visualizations"><input class="share-description" type="hidden" value="Working with the Small Business Administration (SBA) to create interactive applications, predictive models, visualizations, and more."><input class="share-image" type="hidden"><scropt src="https://cdnjs.cloudflare.com/ajax/libs/emojify.js/0.9.5/emojify.js"></scropt><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/2.0.3/timeago.min.js"></script><script>new timeago().render(document.querySelectorAll('.timeago-render'))</script><script>$(document).ready(init)
+function init() {
+  setupSocialMediaButtons()
+}
+function setupSocialMediaButtons() {
+  var thisUrl = encodeURIComponent(window.location.href)
+  var thisName = encodeURIComponent($('.share-name').val())
+  var thisDescription = encodeURIComponent($('.share-description').val())
+  var thisImage = encodeURIComponent($('.share-image').val())
+  var thisSource = encodeURIComponent($('.share-source').val())
+  $('.btn-social-icon').each(function(){
+    var $a = $(this)
+    var provider = $a.attr('data-provider')
+    var href
+    switch (provider) {
+      case 'facebook':
+        href = 'https://www.facebook.com/sharer/sharer.php?u='+thisUrl
+        break;
+      case 'twitter':
+        href = 'https://twitter.com/home?status=Check%20out%20this%20awesome%20project!%20'+thisName+'%3A%20'+thisUrl
+        break;
+      case 'google':
+        href = 'https://plus.google.com/share?url='+thisUrl
+        break;
+      case 'linkedin':
+        href = 'https://www.linkedin.com/shareArticle?mini=true&url='+thisUrl+'&title='+thisName+'&summary='+thisDescription+'&source='+thisSource
+        break;
+      case 'pinterest':
+        href = 'https://pinterest.com/pin/create/button/?url='+thisUrl+'&media=TESTIMAGEURLHERE&description='+thisDescription
+        break;
+      case 'reddit':
+        href = 'http://reddit.com/submit?url='+thisUrl+'&title='+thisName
+        break;
+      case 'stumbleupon':
+        href = 'http://www.stumbleupon.com/submit?url='+thisUrl+'&title='+thisName
+        break;
+    }
+    $a.attr('href',href)
+  })
+}
+// https://www.facebook.com/sharer/sharer.php?u=TESTURLHERE
+// https://twitter.com/home?status=TWEETHERE
+// https://plus.google.com/share?url=TESTURLHERE
+// https://www.linkedin.com/shareArticle?mini=true&url=TESTURLHERE&title=TESTTITLE&summary=TESTSUMMARY&source=TESTSOURCEHERE
+// https://pinterest.com/pin/create/button/?url=TESTSOURCEHERE&media=TESTIMAGEURLHERE&description=TESTDESCRIPTION
+// http://reddit.com/submit?url=TESTURLHERE&title=TESTTITLE
+// http://www.stumbleupon.com/submit?url=TESTURLHERE&title=TESTTITLE</script></body></html>
